@@ -55,6 +55,7 @@ public class Regression extends Generic_Test {
 		lp.clickLogin();
 		lp.verifyErrorMessage();
 		lp.verifyTitle(lp_title, 5);
+		Assert.fail()
 	}
 	
 	@Test()
